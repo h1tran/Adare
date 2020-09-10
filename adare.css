@@ -1,0 +1,85 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: rgb(65, 65, 65);
+    background-image: url(images/background-adare-restaurant.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container {
+    /* Margin properties are used for div elements whereas text align is used for div contents. */
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+
+header {
+    height: 118px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.33);
+    padding-top: 16px;
+    padding-bottom: 16px;
+    text-align: center;
+}
+
+main {
+    height: 400px;
+    padding-top: 60px;
+    padding-left: 240px;
+    padding-right: 240px;
+    text-align: center;
+}
+
+article {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding-top: 45px;
+    padding-bottom: 45px;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    font-size: 84px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.a-highlight {
+    font-weight: bold;
+}
+
+/*Compound CSS classes*/
+nav a {
+    text-decoration: none;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+footer p {
+    color: gray;
+    font-size: 10px;
+}
