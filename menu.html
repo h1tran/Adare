@@ -15,6 +15,9 @@
         $(function(){
             $("#navbar").load("navbar.html");
         });
+        $(function(){
+            $("#credits").load("credit.html");
+        });
     </script>
 </head>
 
@@ -28,26 +31,48 @@
         <main class="menu">
             <div class="row">
                 <div class="column">
-                    <img src="images/food/1.jpg">
+                    <div class="img-hover-zoom">   
+                        <img src="images/food/1.jpg" alt="BLT SANDWICH">
+                    </div>
                     <p class="menu">BLT SANDWICH // $15</p>
                     <p class="item">Bacon, lettuce & tomato sandwich served with kale greens and softboiled egg.</p>
                 </div>
                 <div class="column">
-                    <img src="images/food/2.jpg">
+                    <div class="img-hover-zoom">   
+                        <img src="images/food/2.jpg" alt="SCAMPI REVISITED, PASTA DISH">
+                    </div>
                     <p class="menu">SCAMPI REVISITED // $16</p>
                     <p class="item">Modern take on scampi shrimp served with tomato salad and eggs on toast.</p>
                 </div>
                 <div class="column">
-                    <img src="images/food/3.jpg">
+                    <div class="img-hover-zoom">   
+                        <img src="images/food/3.jpg" alt="FRENCH TOAST">
+                    </div>
+                    <p class="menu">FRENCH TOAST // $13</p>
+                    <p class="item">Flash fried french toast served with a bed of greens, slices of ham and softboiled egg.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column-3">
+                    <p></p>
+                </div>
+                <div class="column-2">
+                    <div class="img-hover-zoom">   
+                        <img src="images/food/1.jpg" alt="BLT SANDWICH">
+                    </div>
+                    <p class="menu">BLT SANDWICH // $15</p>
+                    <p class="item">Bacon, lettuce & tomato sandwich served with kale greens and softboiled egg.</p>
+                </div>
+                <div class="column-2">
+                    <div class="img-hover-zoom">   
+                        <img src="images/food/3.jpg" alt="FRENCH TOAST">
+                    </div>
                     <p class="menu">FRENCH TOAST // $13</p>
                     <p class="item">Flash fried french toast served with a bed of greens, slices of ham and softboiled egg.</p>
                 </div>
             </div>
         </main>
-        <footer>
-            <p>Main St, Blackabbey, Adare, Co. Limerick - Copyright 2017©</p>
-            <p>Credit to <b>Daniel Scott</b> for their insightful tutorial resources in the production of this website.</p>
-        </footer>
+        <footer id="credits"></footer>
     </div>
 
 </body> 

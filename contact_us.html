@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Daniel Scott, Henry Tran">
+    <meta name="description" content="If you are looking for a pleasurable dining experience, look for Adare.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adare Restaurant</title>
+    <link rel="stylesheet" href="adare.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Load in navigation menu as a reusable code snippet. -->
+    <script>
+        $(function(){
+            $("#navbar").load("navbar.html");
+        });
+        $(function(){
+            $("#credits").load("credit.html");
+        });
+    </script>
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <img src="images/logo-adare-restaurant.png" alt="Logo for Adare Restaurant.">
+        </header>
+        <nav id="navbar"></nav>
+        <main class="index">
+            <div class="container-form">
+                <form action="/action_page.php">
+                    <label for="f_name">First Name</label>
+                    <input type="text" id="f_name" name="first_name" placeholder="Enter your first name here.">
+                    <label for="l_name">Last Name</label>
+                    <input type="text" id="f_name" name="last_name" placeholder="Enter your last name here.">
+                    <label for="phone_number">Phone Number</label>
+                    <input type="text" id="phone_number" name="phone_number" placeholder="Enter your phone here.">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Enter your message here." style="height:200px"></textarea>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </main>
+        <footer id="credits"></footer>
+    </div>
+
+</body> 
+
+</html>
