@@ -159,19 +159,24 @@ footer p {
     transform: scale(1.3);
 }
 
-input[type=text], select, textarea, option {
+input[type=text], select, textarea {
     color: white;
-    width: 100%;
+    width: 90%;
     padding: 12px;
     background-color: rgba(0, 0, 0, 0.33);
     border: 1px solid rgb(255, 252, 252);
     border-radius: 4px;
     /* Contain elements in the div */
     box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 6px;
     margin-bottom: 20px;
     resize: vertical; /* Ability to resize the subject element vertically. */
     text-align: center;
+    display: block;
 }
 
 input[type=submit] {
@@ -180,6 +185,5 @@ input[type=submit] {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    font-family: monospace;
 }
   
