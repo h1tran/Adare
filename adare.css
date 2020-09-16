@@ -30,8 +30,16 @@ body {
 }
 
 header {
-    height: 118px;
+    height: auto;
     padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding-top: 38px;
+    padding-bottom: 30px;
     text-align: center;
 }
 
@@ -63,13 +71,6 @@ article {
     padding-bottom: 10px;
 }
 
-footer {
-    background-color: rgba(0, 0, 0, 0.6);
-    padding-top: 45px;
-    padding-bottom: 45px;
-    text-align: center;
-}
-
 h1 {
     color: white;
     font-size: 84px;
@@ -94,8 +95,14 @@ p.menu {
 p.item {
     padding-left: 50px;
     padding-right: 50px;
+    padding-bottom: 25px;
     font-size: 12.5px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.no-textspace {
+    padding: auto;
+    margin: 5px;
 }
 
 a {
@@ -116,7 +123,7 @@ nav a {
 }
 
 footer p {
-    color: gray;
+    color: rgb(190, 190, 190);
     font-size: 10px;
 }
 
@@ -128,12 +135,32 @@ footer p {
 
 .column-2 {
     float: left;
-    width: 33.33%;
+    width: 12.5%;
+    text-align: left;
 }
 
 .column-3 {
     float: left;
     width: 16.665%;
+    margin: auto;
+}
+
+.column-4 {
+    float: left;
+    width: 25%;
+    text-align: left;
+}
+
+.column-5 {
+    float: left;
+    width: 10%;
+    text-align: left;
+}
+
+.column-6 {
+    float: left;
+    width: 90%;
+    text-align: left;
 }
 
 /* Clear floats after the columns */
@@ -141,7 +168,6 @@ footer p {
     content: "";
     display: table;
     clear: both;
-    padding-bottom: 20px;
 }
 
 .img-hover-zoom {
@@ -185,5 +211,6 @@ input[type=submit] {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    pointer-events: none;
 }
   
