@@ -8,9 +8,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adare Restaurant</title>
     <link rel="stylesheet" href="adare.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script defer src="script.js"></script>
     <!-- Load in navigation menu as a reusable code snippet. -->
     <script>
         $(function(){
@@ -30,48 +32,35 @@
         </header>
         <nav id="navbar"></nav>
         <main class="menu">
+
+            <div class="feature-bg">
+                <p class="header">Discover</p>
+                <h1 class="h1-header">OUR SPECIALTIES</h1>
+            </div>
             <div class="row">
                 <div class="column">
                     <div class="img-hover-zoom">   
-                        <img src="images/food/1.jpg" alt="BLT SANDWICH">
+                        <img class="img_modal" src="images/food/1.jpg" alt="BLT SANDWICH">
                     </div>
                     <p class="menu">BLT SANDWICH // $15</p>
                     <p class="item">Bacon, lettuce & tomato sandwich served with kale greens and softboiled egg.</p>
                 </div>
                 <div class="column">
                     <div class="img-hover-zoom">   
-                        <img src="images/food/2.jpg" alt="SCAMPI REVISITED, PASTA DISH">
+                        <img class="img_modal" src="images/food/2.jpg" alt="SCAMPI REVISITED, PASTA DISH">
                     </div>
                     <p class="menu">SCAMPI REVISITED // $16</p>
                     <p class="item">Modern take on scampi shrimp served with tomato salad and eggs on toast.</p>
                 </div>
                 <div class="column">
                     <div class="img-hover-zoom">   
-                        <img src="images/food/3.jpg" alt="FRENCH TOAST">
+                        <img class="img_modal" src="images/food/3.jpg" alt="FRENCH TOAST">
                     </div>
                     <p class="menu">FRENCH TOAST // $13</p>
                     <p class="item">Flash fried french toast served with a bed of greens, slices of ham and softboiled egg.</p>
                 </div>
             </div>
-            <div class="row">
-                <div class="column-3">
-                    <p></p>
-                </div>
-                <div class="column">
-                    <div class="img-hover-zoom">   
-                        <img src="images/food/1.jpg" alt="BLT SANDWICH">
-                    </div>
-                    <p class="menu">BLT SANDWICH // $15</p>
-                    <p class="item">Bacon, lettuce & tomato sandwich served with kale greens and softboiled egg.</p>
-                </div>
-                <div class="column">
-                    <div class="img-hover-zoom">   
-                        <img src="images/food/3.jpg" alt="FRENCH TOAST">
-                    </div>
-                    <p class="menu">FRENCH TOAST // $13</p>
-                    <p class="item">Flash fried french toast served with a bed of greens, slices of ham and softboiled egg.</p>
-                </div>
-            </div>
+            
         </main>
         <footer id="credits"></footer>
     </div>

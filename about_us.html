@@ -8,11 +8,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adare Restaurant</title>
     <link rel="stylesheet" href="adare.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <!-- Load in navigation menu as a reusable code snippet. -->
     <script>
+        $(document).ready(function() {
+            console.log("Ready!");
+        });
         $(function(){
             $("#navbar").load("navbar.html");
         });
@@ -30,19 +34,7 @@
         </header>
         <nav id="navbar"></nav>
         <main class="index">
-            <div class="container-form">
-                <form action="/action_page.php">
-                    <label for="f_name">First Name</label>
-                    <input type="text" id="f_name" name="first_name" placeholder="Enter your first name here.">
-                    <label for="l_name">Last Name</label>
-                    <input type="text" id="f_name" name="last_name" placeholder="Enter your last name here.">
-                    <label for="phone_number">Phone Number</label>
-                    <input type="text" id="phone_number" name="phone_number" placeholder="Enter your phone here.">
-                    <label for="message">Message</label>
-                    <textarea id="message" name="message" placeholder="Enter your message here." style="height:200px"></textarea>
-                    <input type="submit" value="Submit">
-                </form>
-            </div>
+           
         </main>
         <footer id="credits"></footer>
     </div>
