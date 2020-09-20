@@ -13,6 +13,7 @@ const images = document.querySelectorAll('img.img_modal');
 // Anonymous function for all images
 images.forEach(image => {
     image.addEventListener('click', e => {
+        document.body.classList.add('noscroll');
         lightbox.classList.add('active');
         const img = document.createElement('img');
         img.src = image.src;
@@ -28,8 +29,10 @@ images.forEach(image => {
 lightbox.addEventListener('click', e => {
     if (e.target !== e.currentTarget) return;
     lightbox.classList.remove('active');
+    document.body.classList.remove('noscroll');
 })
 
 close_button.addEventListener('click', e => {
     lightbox.classList.remove('active');
+    document.body.classList.remove('noscroll');
 })
