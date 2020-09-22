@@ -414,7 +414,7 @@ input[type=submit] {
     }
 
     h1.h1-header {
-        font-size: calc(2em + 3vmin);
+        font-size: calc(2em + 2.5vmin);
     }
 
     .resize {
@@ -430,5 +430,9 @@ input[type=submit] {
         padding-bottom: 20px;
         padding-left: 20vmin;
         width: calc(100vw - 17px - 40vmin);
+    }
+
+    .parallax {
+        background-attachment: scroll;
     }
 }
