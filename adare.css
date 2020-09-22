@@ -193,18 +193,24 @@ footer p {
     text-align: left;
 }
 
-.column-5 {
+.column-5-1 {
     float: left;
     width: 10%;
     text-align: left;
 }
 
+.column-5 {
+    float: left;
+    width: 20%;
+    text-align: left;
+}
+
 .column-6 {
     float: left;
-    width: 90%;
+    width: 80%;
     text-align: left;
     margin-top: -2px;
-    margin-bottom: 4px;
+    margin-bottom: 4px
 }
 
 .column-7 {
@@ -408,7 +414,7 @@ input[type=submit] {
     }
 
     h1.h1-header {
-        font-size: calc(2.5em + 3vmin);
+        font-size: calc(2em + 3vmin);
     }
 
     .resize {
