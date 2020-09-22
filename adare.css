@@ -48,10 +48,9 @@ header {
 }
 
 footer {
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.4);
     padding-top: 38px;
     padding-bottom: 30px;
-    margin-bottom: 30px;
     text-align: center;
 }
 
@@ -120,13 +119,13 @@ p.menu {
     font-size: 18px;
     font-family: 'Poppins', Helvetica, sans-serif;
     font-weight: bold;
-    text-align: left;
+    text-align: center;
 }
 
 p.item {
     padding-left: 36px;
     padding-right: 40px;
-    text-align: left;
+    text-align: center;
     font-size: 11.5px;
     font-family: 'Poppins', Helvetica, sans-serif;
 }
@@ -204,6 +203,8 @@ footer p {
     float: left;
     width: 90%;
     text-align: left;
+    margin-top: -2px;
+    margin-bottom: 4px;
 }
 
 .column-7 {
@@ -229,6 +230,12 @@ footer p {
     content: "";
     display: table;
     clear: both;
+}
+
+.center {
+    justify-content: center;
+    align-content: center;
+    text-align: center;
 }
 
 .img-hover-zoom {
@@ -281,7 +288,6 @@ input[type=submit] {
     border: none;
     cursor: pointer;
     pointer-events: none;
-    margin-left: 208px;
 }
 
 #lightbox {
@@ -326,7 +332,7 @@ input[type=submit] {
     display: flex;
     flex-direction: column;
     height: 270px;
-    width: 1024px;
+    width: 100%;
     background-image: url('images/1.jpg');
     margin-bottom: 80px;
     justify-content: center;
@@ -360,4 +366,63 @@ input[type=submit] {
     justify-content: center;
     text-align: center;
     margin-bottom: 48px;
+}
+
+@media screen and (max-width: 1024px) {
+    .container {
+        width: calc(100vw - 17px);
+        overflow-x: hidden;
+    }
+
+    p.story {
+        padding-left: 3vmin;
+        width: calc(100vw - 17px - 6vmin);
+        font-size: calc(0.6em + 0.5vmin);
+    }
+
+    main.index {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    main.index p {
+        padding-left: 15vmin;
+        width: calc(100vw - 17px - 30vmin);
+        font-size: calc(0.8em + 0.6vmin);
+    }
+
+    main.index a.a-highlight {
+        font-size: calc(0.8em + 0.65vmin);
+    }
+
+    footer p {
+        font-size: calc(0.35em + 0.5vmin);
+    }
+
+    iframe {
+        width: calc(100vw - 34px);
+    }
+
+    p.header {
+        font-size: calc(0.85em + 0.5vmin);
+    }
+
+    h1.h1-header {
+        font-size: calc(2.5em + 3vmin);
+    }
+
+    .resize {
+        width: 100%;
+    }
+
+    p.menu {
+        text-align: center;
+    }
+
+    p.item {
+        text-align: center;
+        padding-bottom: 20px;
+        padding-left: 20vmin;
+        width: calc(100vw - 17px - 40vmin);
+    }
 }
