@@ -314,7 +314,7 @@ input[type=submit] {
 #close_button {
     position: absolute;
     top: 5%;
-    right: 20%;
+    right: 10%;
     color: #f1f1f1;
     font-size: 40px;
     font-weight: bold;

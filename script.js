@@ -16,9 +16,10 @@ images.forEach(image => {
         document.body.classList.add('noscroll');
         lightbox.classList.add('active');
         const img = document.createElement('img');
+        side_length = 'calc(20em + 10vw)';
         img.src = image.src;
-        img.style.height = '540px';
-        img.style.width = '540px';
+        img.style.height = side_length;
+        img.style.width = side_length;
         while(lightbox.childNodes[1]) {
             lightbox.removeChild(lightbox.childNodes[1]);
         }
