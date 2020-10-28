@@ -10,7 +10,11 @@
 
 <div align="center">
   <p>A tutorial website template created by Daniel Scott and implemented by Henry Tran.</p>
-  <p>Additional features were implemented to heighten the project scope, such as parallax image scrolling, modal image popups, and responsive web design.</p>
+  <p>Additional features were implemented to heighten the project scope, such as:</p>
 </div>
+
+- Parallax image scrolling
+- Modal image popups
+- Responsive web design
 
 ---
