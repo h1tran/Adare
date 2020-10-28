@@ -1,3 +1,7 @@
+<img src="images/1.PNG" alt="Homepage View"/>
+
+---
+
 <div align="center">
   <h3>Adare Restaurant</h3>
 </div>
@@ -10,5 +14,3 @@
 </div>
 
 ---
-
-<img src="images/1.PNG" alt="Homepage View"/>
